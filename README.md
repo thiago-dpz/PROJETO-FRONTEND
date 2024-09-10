@@ -60,8 +60,6 @@ Uma app React semi-SP(Single-page) com:
   
 - About page: Contendo conteúdo informátivo sobre o propósito do centro de pesquisa e uma Weather API com base em localização aproximada.
 
-### Screenhot
-
 ![](src/assets/images/screenshot.png)
 
 ## Processo
