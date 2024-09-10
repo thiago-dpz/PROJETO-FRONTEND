@@ -25,9 +25,9 @@ Como iniciar o projeto:
 
 ### Run CRA
 
-A app será executada em: localhost:3000
-
 `npm start`
+
+A app será executada em: localhost:3000
 
 ## Geral
 
