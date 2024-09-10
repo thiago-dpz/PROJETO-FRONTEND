@@ -1,0 +1,88 @@
+.testimonials{
+    min-height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url("../../assets/images/testimonials_background.jpg") center/cover no-repeat;
+}
+
+/* Estilos personalizados para os logotipos */
+.logo-0 img {
+    width: 220px; /* Tamanho personalizado para o primeiro logotipo */
+    margin-left: -14px;
+}
+
+.logo-1 img {
+    width: 150px; /* Tamanho personalizado para o segundo logotipo */
+}
+
+.logo-2 img {
+    width: 400px; /* Tamanho personalizado para o terceiro logotipo */
+    margin-left: -86px;
+}
+
+.logo-3 img {
+    width: 260px; /* Tamanho personalizado para o quarto logotipo */
+}
+
+.testimonials-item-text{
+    margin: 20px 0;
+}
+.testimonials-item-text span{
+    display: block;
+    letter-spacing: 0.5px;
+}
+.testimonials-item-text small{
+    font-weight: 300;
+    opacity: 0.9;
+    letter-spacing: 0.5px;
+}
+.testimonials-item{
+    padding-bottom: 2rem;
+}
+.testimonials-item .text{
+    max-width: 500px;
+}
+.slick-dots li button::before{
+    font-size: 15px!important;
+    color: #fff!important;
+}
+
+.logos-list{
+    row-gap: 30px;
+    margin-top: 80px;
+}
+.logos-item{
+    width: 160px;
+}
+
+@media screen and (min-width: 576px){
+    .logos-list{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (min-width: 768px){
+    .logos-list{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* media query para os logos */ 
+@media screen and (max-width: 980px){
+    .logo-0 img {
+        width: 220px; /* Tamanho personalizado para o primeiro logotipo */
+        margin-left: -14px;
+    }
+    
+    .logo-1 img {
+        width: 150px; /* Tamanho personalizado para o segundo logotipo */
+    }
+    
+    .logo-2 img {
+        width: 369px; /* Tamanho personalizado para o terceiro logotipo */
+        margin-left: -86px;
+    }
+    
+    .logo-3 img {
+        width: 201px; /* Tamanho personalizado para o quarto logotipo */
+    }
+    
+}
