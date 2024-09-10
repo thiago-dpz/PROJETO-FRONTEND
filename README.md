@@ -1,6 +1,6 @@
 # Projeto Front-end - Ophidium
 
-Meu projeto front-end, feito com o objetivo de aplicar na prática o conhecimento adquirido até agora ao nível de frontend development, proposto pelo meu atual curso [FLAG](https://flag.pt/curso/full-stack-web-developer).
+Projeto feito com o objetivo de aplicar na prática o conhecimento adquirido até agora ao nível de frontend development, proposto pelo meu atual curso [FLAG](https://flag.pt/curso/full-stack-web-developer).
 
 ## Conteúdo
 
@@ -25,7 +25,7 @@ Como iniciar o projeto:
 
 ### Run CRA
 
-A app será executada em: http://localhost:3000
+A app será executada em: localhost:3000
 
 `npm start`
 
@@ -43,7 +43,7 @@ Requisitos do projeto:
 - Boa semântica de HTML e CSS adequado (✔);
 - Utilização de rotas (✔);
 - Um simples formulário de validação (✔);
-- State managemente (extra positivo, opcional) (X). 
+- State management (extra positivo, opcional) (X). 
   
 
 ### Desafio
